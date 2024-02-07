@@ -42,6 +42,9 @@ public class SubElementVariables extends SubElement {
     boolean isGlobalScope = true;
     boolean isCreatingNewVar = false;
 
+    Map.Entry<String, GuiTextField> focusedField; //TODO: del
+
+    // each variable's own elements
     Map<String, GuiButton> btns_var_delete = new HashMap<>();
     Map<String, GuiTextField> txts_var_data = new HashMap<>();
 
